@@ -15,7 +15,7 @@ function create() {
   platform.create(50,250, "obstaculo").setScale(0.90);
   platform.create(550,150, "obstaculo").setScale(0.90);
 
-  var personagem = this.physics.add.sprite(100, 352, "personagem");
+  var personagem = this.physics.add.sprite(100, 352, "personagem")
 
 
 
